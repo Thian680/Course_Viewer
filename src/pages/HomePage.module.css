@@ -13,3 +13,18 @@
   font-size: 1.2em;
   color: #666;
 }
+
+.homePage::before {
+  content: "";
+  position: absolute;
+  top: 10em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../../public/blackBook.png');
+  background-size: 40em;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.2;   
+  z-index: -1; 
+}

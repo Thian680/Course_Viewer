@@ -19,6 +19,18 @@ function CoursesPage({ selectedCourse, setSelectedCourse }) {
       title: "State Lifting",
       description: "Manage shared state in React",
     },
+    {
+      id: 4,
+      title: "WebDev 1",
+      description:
+        "Introduction to client-side coding, webpage structure, and basic interactivity.",
+    },
+    {
+      id: 5,
+      title: "WebDev 2",
+      description:
+        "Advanced front-end programming, asynchronous data handling, and server-side integration.",
+    },
   ];
 
   const handleSelectCourse = (course) => {

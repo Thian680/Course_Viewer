@@ -1,9 +1,18 @@
+@font-face {
+  font-family: 'Pixel Font';
+  src: url('/src/assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf') format('truetype'); 
+  font-weight: 100 900; 
+  font-size: 600;
+  font-display: swap;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Pixel Font', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f0f2f5;
 }
+
 
 .container {
   width: 80%;
